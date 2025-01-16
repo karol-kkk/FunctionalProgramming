@@ -161,7 +161,7 @@ employees = ["SMITH Lucy", "JONES Janet", "LEE Jerry",
              "LEWIS Terry", "CLARKE Robin"]
 
 # Use filter() to find employees whose surnames start with 'J'
-emp_J = list(filter(lambda e: e.split()[0][0] == 'J', employees))
+emp_J = list(filter(lambda e: e[0] == 'J', employees))
 
 # Print the filtered list
 print("Employees with surnames starting with 'J':")
