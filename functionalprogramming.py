@@ -160,7 +160,7 @@ employees = ["SMITH Lucy", "JONES Janet", "LEE Jerry",
              "JACKSON Peter", "JOHNSON Rick",
              "LEWIS Terry", "CLARKE Robin"]
 
-# Use filter() to find employees whose surnames start with 'J'
+# Use filter() to find employees whose surnames start with 'J'. IF surname appeared after firstname e.split()[1][0]
 emp_J = list(filter(lambda e: e[0] == 'J', employees))
 
 # Print the filtered list
